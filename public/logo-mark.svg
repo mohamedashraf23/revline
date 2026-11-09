@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="128" height="128">
+  <!--
+    Revline mark, standalone. Pure geometry with no font dependency, so this is
+    the safe file for decks, email signatures, print and vendor portals.
+    Colours are baked as sRGB hex here (oklch is not universally supported in
+    standalone SVG consumers); in the app the component reads CSS custom
+    properties instead. Dial #1E1A16, redline #D75928.
+  -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M6.99 22.31A11 11 0 0 1 25.01 9.69" stroke="#1E1A16" stroke-width="3.2" />
+    <path d="M25.01 9.69A11 11 0 0 1 25.01 22.31" stroke="#D75928" stroke-width="3.2" />
+    <path d="M16 16L24.41 14.21" stroke="#D75928" stroke-width="3.4" />
+  </g>
+  <circle cx="16" cy="16" r="2.5" fill="#D75928" />
+</svg>
